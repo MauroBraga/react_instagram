@@ -13,9 +13,10 @@ export default createAppContainer(
             Feed,
             New
         },{
+         initialRouteName: 'New',   
          defaultNavigationOptions:{
             headerTintColor:"#000", 
-            headerTitle: <Image style={{marginHorizontal: 120 }} source={logo} />,
+            headerTitle: <Image style={{justifyContent:"center", alignItems:'center' }} source={logo} />,
              headerBackTitle: null,
          },
          mode:'modal'

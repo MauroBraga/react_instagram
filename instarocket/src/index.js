@@ -1,5 +1,5 @@
 import React from 'react'
-import { StyleSheet, View, Text } from 'react-native'
+//simport { YellowBox } from 'react-native'
 
 import Routes from './routes'
 
